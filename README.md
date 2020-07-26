@@ -14,6 +14,5 @@ Once I all of the tweets for each CEO in a txt file, I converted the data into a
 In order to determine the sentiment of each tweet, I used the TextBlob library which is an NLTK-based NLP library that allowed me to bypass training a language model with machine learning and skip straight to testing/categorization. Each tweet was given a subjectivity score ranging from 0 to 1 (0 = factual, 1 = opinionated), and a polarity score (-1 to 0 being negative, 0 being neutral, and 0 to 1 being positive). Once each tweet was analyzed and scores recorded to the dataframe, I exported the result to a CSV. I also ran a few visualizations such as wordclouds and histograms to get a sneak peak at the analysis.
 
 ## TABLEAU 
-After I had a working CSV file for each CEO, I imported them to Tableau by union and filtered by CEO when constructing my worksheets. The analysis I completed looks is available at the link at the top of this README or in picture format below:
-
+After I had a working CSV file for each CEO, I imported them to Tableau by union and filtered by CEO when constructing my worksheets. The analysis I completed is available via the link at the top of this README or in picture format below:
 
