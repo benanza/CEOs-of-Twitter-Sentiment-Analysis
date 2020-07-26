@@ -1,4 +1,4 @@
-# Sentiment Analysis of CEO's on Twitter
+# Sentiment Analysis of CEOs on Twitter
 ### For an interactive view of my Tableau visualization, please visit https://tabsoft.co/2D2G38Z
 
 ## OVERVIEW
