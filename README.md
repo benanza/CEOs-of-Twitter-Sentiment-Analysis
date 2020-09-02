@@ -2,7 +2,7 @@
 ### For an interactive view of my Tableau visualization, please visit https://tabsoft.co/2D2G38Z
 
 ## OVERVIEW
-Some CEOs carry enough popularity to garner significant Twitter traffic about them. I chose to consider 6 of the most well-known: Elon Musk (Tesla, SpaceX), Bill Gates (*former* CEO of Microsoft), Mark Zuckerberg (Facebook), Jeff Bezos (Amazon), Tim Cook (Apple), and Jack Dorsey (Twitter). The goal was to perform a sentiment analysis of tweets about these CEOs using Python and Tableau.
+Some CEOs carry enough popularity to garner significant Twitter traffic about them. I chose to consider 6 of the most well-known: Elon Musk (Tesla, SpaceX, Neuralink, Starlink, The Boring Company), Bill Gates (*former* CEO of Microsoft), Mark Zuckerberg (Facebook), Jeff Bezos (Amazon), Tim Cook (Apple), and Jack Dorsey (Twitter). The goal was to perform a sentiment analysis of tweets about these CEOs using Python and Tableau.
 
 ## SCRAPING THE TWEETS
 I first needed to get API keys for myself by setting up an app on Twitter's developer website. Then, using the Python library Tweepy inside of a Jupyter Notebook, I scraped the Twitter API to pull tweets *about* each CEO. I was able to do a maximum of around 50,000 tweets for the more popular Elon Musk and Bill Gates, while the others pulled in between 5,000 and 35,000 tweets. The scrape exports each tweet as a fairly extensive JSON object, but since I was only interested in textual sentiment analysis, I narrowed down the scrape to only pull the text. This also saved massive amounts of storage space when each collection of tweets was exported to a txt file.
